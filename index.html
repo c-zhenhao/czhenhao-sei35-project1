@@ -4,9 +4,225 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>GA-SEI35 Project 1: Hit and Pass aka Mastermind</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    test
+    <!-- navigation bar at the top -->
+    <nav class="navbar">
+      <div class="navbar-container">
+        <div class="navbar-container-title">
+          <h1>"Hit and Pass" aka Mastermind</h1>
+        </div>
+      </div>
+    </nav>
+
+    <!-- header/game legend container -->
+    <header class="header-container">
+      <div class="header-container-box1">
+        <h2>⚫ "Hit": colour and position</h2>
+      </div>
+      <div class="header-container-box2">
+        <h2>⚪ "Pass": colour only</h2>
+      </div>
+    </header>
+
+    <!-- game main container -->
+    <div class="game-container">
+      <!-- rounds number  -->
+      <div class="rounds-container">
+        <div class="rounds">1</div>
+        <div class="rounds">2</div>
+        <div class="rounds">3</div>
+        <div class="rounds">4</div>
+        <div class="rounds">5</div>
+        <div class="rounds">6</div>
+        <div class="rounds">7</div>
+        <div class="rounds">8</div>
+        <div class="rounds end"></div>
+      </div>
+
+      <!-- pins for attempts -->
+      <div class="pins-container">
+        <div class="pins">
+          <div class="pins-row">
+            <div class="pins-socket socket">o1</div>
+            <div class="pins-socket socket">o2</div>
+          </div>
+          <div class="pins-row">
+            <div class="pins-socket socket">o3</div>
+            <div class="pins-socket socket">o4</div>
+          </div>
+        </div>
+
+        <div class="pins">
+          <div class="pins-row">
+            <div class="pins-socket socket">o1</div>
+            <div class="pins-socket socket">o2</div>
+          </div>
+          <div class="pins-row">
+            <div class="pins-socket socket">o3</div>
+            <div class="pins-socket socket">o4</div>
+          </div>
+        </div>
+
+        <div class="pins">
+          <div class="pins-row">
+            <div class="pins-socket socket">o1</div>
+            <div class="pins-socket socket">o2</div>
+          </div>
+          <div class="pins-row">
+            <div class="pins-socket socket">o3</div>
+            <div class="pins-socket socket">o4</div>
+          </div>
+        </div>
+
+        <div class="pins">
+          <div class="pins-row">
+            <div class="pins-socket socket">o1</div>
+            <div class="pins-socket socket">o2</div>
+          </div>
+          <div class="pins-row">
+            <div class="pins-socket socket">o3</div>
+            <div class="pins-socket socket">o4</div>
+          </div>
+        </div>
+
+        <div class="pins">
+          <div class="pins-row">
+            <div class="pins-socket socket">o1</div>
+            <div class="pins-socket socket">o2</div>
+          </div>
+          <div class="pins-row">
+            <div class="pins-socket socket">o3</div>
+            <div class="pins-socket socket">o4</div>
+          </div>
+        </div>
+
+        <div class="pins">
+          <div class="pins-row">
+            <div class="pins-socket socket">o1</div>
+            <div class="pins-socket socket">o2</div>
+          </div>
+          <div class="pins-row">
+            <div class="pins-socket socket">o3</div>
+            <div class="pins-socket socket">o4</div>
+          </div>
+        </div>
+
+        <div class="pins">
+          <div class="pins-row">
+            <div class="pins-socket socket">o1</div>
+            <div class="pins-socket socket">o2</div>
+          </div>
+          <div class="pins-row">
+            <div class="pins-socket socket">o3</div>
+            <div class="pins-socket socket">o4</div>
+          </div>
+        </div>
+
+        <div class="pins">
+          <div class="pins-row">
+            <div class="pins-socket socket">o1</div>
+            <div class="pins-socket socket">o2</div>
+          </div>
+          <div class="pins-row">
+            <div class="pins-socket socket">o3</div>
+            <div class="pins-socket socket">o4</div>
+          </div>
+        </div>
+
+        <div class="pins end">x</div>
+      </div>
+
+      <!-- guess boxes -->
+      <div class="guess-container">
+        <div class="guess">
+          <div class="socket">o1</div>
+          <div class="socket">o2</div>
+          <div class="socket">o3</div>
+          <div class="socket">o4</div>
+        </div>
+
+        <div class="guess">
+          <div class="socket">o1</div>
+          <div class="socket">o2</div>
+          <div class="socket">o3</div>
+          <div class="socket">o4</div>
+        </div>
+
+        <div class="guess">
+          <div class="socket">o1</div>
+          <div class="socket">o2</div>
+          <div class="socket">o3</div>
+          <div class="socket">o4</div>
+        </div>
+
+        <div class="guess">
+          <div class="socket">o1</div>
+          <div class="socket">o2</div>
+          <div class="socket">o3</div>
+          <div class="socket">o4</div>
+        </div>
+
+        <div class="guess">
+          <div class="socket">o1</div>
+          <div class="socket">o2</div>
+          <div class="socket">o3</div>
+          <div class="socket">o4</div>
+        </div>
+
+        <div class="guess">
+          <div class="socket">o1</div>
+          <div class="socket">o2</div>
+          <div class="socket">o3</div>
+          <div class="socket">o4</div>
+        </div>
+
+        <div class="guess">
+          <div class="socket">o1</div>
+          <div class="socket">o2</div>
+          <div class="socket">o3</div>
+          <div class="socket">o4</div>
+        </div>
+
+        <div class="guess">
+          <div class="socket">o1</div>
+          <div class="socket">o2</div>
+          <div class="socket">o3</div>
+          <div class="socket">o4</div>
+        </div>
+
+        <div class="answer">
+          <div class="answer-socket">?</div>
+          <div class="answer-socket">?</div>
+          <div class="answer-socket">?</div>
+          <div class="answer-socket">?</div>
+        </div>
+      </div>
+
+      <!-- option boxes -->
+      <div class="options-container">
+        <div class="selector">
+          <div id="options" class="container">
+            <button id="blue" class="option blue">1b</button>
+            <button id="red" class="option red">2r</button>
+            <button id="yellow" class="option yellow">3y</button>
+            <button id="green" class="option green">4g</button>
+            <button id="purple" class="option purple">5p</button>
+            <button id="brown" class="option brown">6w</button>
+            <!-- <button id="pink" class="option pink">7i</button>
+          <button id="orange" class="option orange">8o</button> -->
+          </div>
+        </div>
+
+        <div class="selector">
+          <button id="delete">delete</button>
+          <button id="submit">submit</button>
+          <button id="surrender">surrender</button>
+        </div>
+      </div>
+    </div>
   </body>
+  <script src="script.js"></script>
 </html>
