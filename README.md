@@ -14,7 +14,7 @@ See live here: https://c-zhenhao.github.io/project1/
 |7 |i |pink |
 |8 |o |orange|
 
-|  keyboard button   | colour                   |
+|  keyboard button   | game function            |
 | :----------------: | ------------------------ |
 |  escape or delete  | delete last colour input |
 | enter or semicolon | submit guess             |
