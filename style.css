@@ -438,12 +438,11 @@ button {
 }
 
 /* media query */
-@media only screen and (max-width: 900px) {
+/* @media only screen and (max-width: 900px) {
   .rounds-container,
   .pins-container,
   .guess-container,
   .options-container {
-    /* flexbox things */
     flex-direction: column;
   }
-}
+} */
