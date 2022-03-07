@@ -23,19 +23,20 @@ For example, the answer is ["blue", "blue", "red", "red"].
 
 If the guess is ["blue", "yellow", "green", "purple"], there will only be **one** black pin for the first blue guess ("peg").
 
-[see this for more examples and the game in very "classic JS](https://www.onlinespiele-sammlung.de/mastermind/mastermindgames/lundy/scx.htm) (which i intend recreate in the future "how to play")
+[see this for more examples and the game in very "classic" JS](https://www.onlinespiele-sammlung.de/mastermind/mastermindgames/lundy/scx.htm) (which i intend recreate in the future "how to play")
 
 ## Tech
 
 _I have left A LOT of comments in the code for two purposes_
 _1. initial pseudocoding_
-_2. reference so that when I come back to work on which will be removed in the final version._
+_2. referencing/explanation purposes so that when I come back to work on it, I know what I was doing 😅 . Which will be removed in the final version._
 
 The project was done using Javascript DOM manipulation to _update_ the CSS.
 
 ### interesting points
 
-_game logic JS_
+**game logic in JS**
+
 Game logic was actually not too complex after much googling for answers. Since essentially only 1 check needs to be done at the end of every round, hence:
 
 _in pseudocode_
@@ -48,10 +49,11 @@ _in pseudocode_
       1. if found, award 1 white pin
       2. This was actually not so straightforward since there is need to remove the element that was checked, otherwise additional white pins may be awarded in error
 
-_CSS_
+**CSS logic**
+
 The simplest solution to feedback to the player what colour choice the player has made in the front-end is to use CSS classes. It is done using 3 components:
 
-// button options, which contained the colour "id" of the button
+button options, which contained the colour "id" of the button
 
 ```
 <div id="options" class="container">
@@ -64,7 +66,7 @@ The simplest solution to feedback to the player what colour choice the player ha
 </div>
 ```
 
-// link the button to the insertGuess function
+link the button to the insertGuess function
 
 ```
 for (let i = 0; i < options.length; i++) {
@@ -72,7 +74,7 @@ for (let i = 0; i < options.length; i++) {
 }
 ```
 
-// function which took the button id the className of the original
+function which took the button id the className of the original
 
 ```
 function insertGuess() {
@@ -84,7 +86,7 @@ function insertGuess() {
 }
 ```
 
-// div to be updated by the function
+div to be updated by the function
 
 ```
 <div class="guess">
@@ -95,7 +97,7 @@ function insertGuess() {
 </div>
 ```
 
-[adapted from original source code here](https://github.com/klomontes/js-mastermind/blob/master/js/main.js)
+[adapted from original source code here](https://github.com/klomontes/js-mastermind/blob/master/js/main.js) thank you creator!
 
 ---
 
@@ -105,7 +107,7 @@ function insertGuess() {
 
 - Flexbox is actually not very appropriate for browser games as generally it needs to be a fixed canvas but I wanted to understand Flexbox as I thought would be a very useful basic CSS framework versus placing things relatively/absolutely (which feels pre-CSS3/web1.0), before moving to more "cooler" tech like Bootstrap, or Style components which other more advanced classmates are using.
 
-- That being said, "container-ception" actually made this project way more complex than it needs to be and is really not great since very tedious CSS targeting would be necessary.
+- That being said, "container-ception" actually made this project way more complex than it needs to be and it was really not a great experience since very tedious CSS targeting would be necessary.
 
 ## Future roadmap
 
