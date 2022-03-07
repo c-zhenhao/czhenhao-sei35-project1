@@ -114,13 +114,13 @@ div to be updated by the function
 </div>
 ```
 
-[adapted from original source code here](https://github.com/klomontes/js-mastermind/blob/master/js/main.js) thank you creator!
+[adapted from original source code here](https://github.com/klomontes/js-mastermind/blob/master/js/main.js) thank you creator! :)
 
 ---
 
 ## Project post-mortems
 
-- Couldn't have picked a more appopriate project to start my full-stack developer journey, as it balanced out the involved Javascript, HTML and CSS, rather than focusing very deeply on one aspect (which I wanted to (i.e. on JS))
+- Couldn't have picked a more appopriate project to start my full-stack developer journey, as it balanced out the involvement of Javascript, HTML and CSS, rather than focusing very deeply on one aspect (which I wanted to (i.e. on JS))
 
 - Flexbox is actually not very appropriate for browser games as generally it needs to be a fixed canvas but I wanted to understand Flexbox as I thought would be a very useful basic CSS framework versus placing things relatively/absolutely (which feels pre-CSS3/web1.0), before moving to more "cooler" tech like Bootstrap, or Style components which other more advanced classmates are using.
 
