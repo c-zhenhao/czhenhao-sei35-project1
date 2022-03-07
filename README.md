@@ -14,8 +14,9 @@ See live here: https://c-zhenhao.github.io/project1/
 |7 |i |pink |
 |8 |o |orange|
 
-esc/delete deleteButton
-enter/semicolon enter
+|keyboard button|game function|
+|esc/delete |delete/backspace guess|
+|enter/semicolon |submit|
 
 If you have any comments/feedback, please feel free to use the Github Discussions (forum) to open a thread:
 https://github.com/c-zhenhao/project1/discussions
