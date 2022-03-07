@@ -13,7 +13,6 @@ See live here: https://c-zhenhao.github.io/project1/
 |6 |w |brown |
 |7 |i |pink |
 |8 |o |orange|
-|------|--------|------|
 
 esc/delete deleteButton
 enter/semicolon enter
