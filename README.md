@@ -2,6 +2,22 @@
 
 See live here: https://c-zhenhao.github.io/project1/
 
+**Keyboard shortcuts for the game!**
+|number|alphabet|colour|
+|:----:|:------:|------|
+|1 |b |blue |
+|2 |r |red |
+|3 |y |yellow|
+|4 |g |green |
+|5 |p |purple|
+|6 |w |brown |
+|7 |i |pink |
+|8 |o |orange|
+|------|--------|------|
+
+esc/delete deleteButton
+enter/semicolon enter
+
 If you have any comments/feedback, please feel free to use the Github Discussions (forum) to open a thread:
 https://github.com/c-zhenhao/project1/discussions
 
