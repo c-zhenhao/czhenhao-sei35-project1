@@ -1,6 +1,6 @@
 # "Hit and Pass" aka Mastermind/Hit and Blow (Clubhouse Games) clone
 
-See live here: https://c-zhenhao.github.io/project1/
+See live here: https://c-zhenhao.github.io/czhenhao-sei35-project1/
 
 **Keyboard shortcuts for the game!**
 |number|alphabet|colour|
